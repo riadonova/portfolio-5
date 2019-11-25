@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+@import "variables";
+
+html, body {
+  background-color: #282828;
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 6px 10px;
+  font-size: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  &:focus {
+    color: #ffffff;
+    background-color: #6f6f6f;
+    border: 1px solid #6f6f6f;
+    outline: none;
+  }
+}
+
+.theme-text {
+  display: inline-block;
+  background-color: $blue;
+  padding: 5px 10px;
+  font-size: 19px;
+  cursor: pointer;
+}
+

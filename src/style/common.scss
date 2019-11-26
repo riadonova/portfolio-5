@@ -21,19 +21,30 @@ html, body {
   color: #ffffff;
   border: 1px solid #ffffff;
   cursor: pointer;
-  &:focus {
+  transition: all 0.5s;
+  &:hover {
     color: #ffffff;
-    background-color: #6f6f6f;
-    border: 1px solid #6f6f6f;
+    background-color: $orange;
+    border: 1px solid $orange;
     outline: none;
+  }
+  &.pink {
+    color: $pink;
+    border: 1px solid $pink;
   }
 }
 
 .theme-text {
   display: inline-block;
-  background-color: $blue;
+  color: #ffffff;
   padding: 5px 10px;
   font-size: 19px;
   cursor: pointer;
+  &.blue {
+    background-color: $blue;
+  }
+  &.pink {
+    background-color: $pink;
+  }
 }
 

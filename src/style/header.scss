@@ -1,3 +1,5 @@
+@import "variables";
+
 .header {
   position: relative;
   background-image: url("../img/header.png");
@@ -19,9 +21,15 @@
   .nav-item {
     margin-right: 30px;
     cursor: pointer;
+    &:hover {
+      color: $gray;
+    }
   }
   .nav-item.active {
     border-bottom: 2px solid #ffffff;
+    &:hover {
+      color: #ffffff;
+    }
   }
   i {
     margin-right: 10px;
@@ -41,6 +49,7 @@
 .logo-name {
   font-size: 35px;
   font-family: 'Alatsi', sans-serif;
+  cursor: pointer;
 }
 
 .header-news {

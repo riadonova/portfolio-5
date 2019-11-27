@@ -11,7 +11,7 @@
 }
 .menu-articles-item {
   display: inline-block;
-  color: $gray;
+  color: $gray-01;
   font-size: 18px;
   margin-right: 50px;
   cursor: pointer;
@@ -33,6 +33,11 @@
   height: 325px;
   padding: 27px 30px;
   margin-bottom: 20px;
+  .btn:hover {
+    color: #ffffff;
+    background-color: $pink;
+    border: 1px solid $pink;
+  }
 }
 
 .article-top-news {
@@ -71,4 +76,27 @@
 .article-type-one-img {
   width: 100%;
   height: 230px;
+}
+
+.article-type-one-header {
+  padding: 15px 30px;
+  .article-type-one-header-name {
+    font-size: 23px;
+  }
+  .article-type-one-header-text {
+    color: $gray-02;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+}
+
+.elements-news {
+  padding: 16px 30px;
+  width: 100%;
+  height: 70px;
+  background-color: $gray-02;
+  .btn {
+    margin-right: 20px;
+  }
 }

@@ -1,8 +1,9 @@
 @import "variables";
 
 .body-articles {
-  padding: 20px 80px 0 80px;
   width: 70%;
+  padding: 20px 80px 0 80px;
+  margin-right: 10px;
 }
 .menu-articles {
   position: relative;
@@ -122,6 +123,9 @@
   background-color: $gray-02;
   cursor: pointer;
   transition: all 0.5s;
+  i {
+    vertical-align: middle;
+  }
   &:hover {
     color: #000000;
     background-color: $gray-03;

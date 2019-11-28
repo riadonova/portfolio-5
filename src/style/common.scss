@@ -14,6 +14,10 @@ html, body {
   box-sizing: border-box;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .btn {
   padding: 6px 10px;
   font-size: 20px;
@@ -49,6 +53,9 @@ html, body {
   &.green {
     background-color: $green;
   }
+  &.gray-blue {
+    background-color: $gray-blue;
+  }
 }
 
 .comment {
@@ -70,4 +77,8 @@ html, body {
     position: absolute;
     margin-left: 30px;
   }
+}
+
+.article-name {
+  cursor: pointer;
 }

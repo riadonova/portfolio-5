@@ -56,6 +56,9 @@ img {
   &.gray-blue {
     background-color: $gray-blue;
   }
+  &.yellow {
+    background-color: $yellow;
+  }
 }
 
 .comment {
@@ -81,4 +84,27 @@ img {
 
 .article-name {
   cursor: pointer;
+  font-size: 23px;
 }
+
+.article-text {
+  color: $gray-03;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.elements-news {
+  padding: 16px 30px;
+  width: 100%;
+  height: 70px;
+  background-color:$gray-02;
+  .btn {
+    margin-right: 20px;
+  }
+}
+

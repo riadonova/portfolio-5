@@ -1,8 +1,8 @@
 @import "variables";
 
 .body-articles {
-  width: 70%;
-  padding: 20px 80px 0 80px;
+  width:  calc(65% - 10px);
+  padding: 20px 0 0 80px;
   margin-right: 10px;
 }
 .menu-articles {

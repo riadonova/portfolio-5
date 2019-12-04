@@ -1,6 +1,61 @@
+@import "variables";
+
 .body-aside {
-  width: 30%;
-  padding: 20px 80px 0 80px;
+  width: calc(35% - 10px);
+  padding: 20px 80px 0 0;
   margin-left: 10px;
+  .toggle-group {
+    display: flex;
+  }
+  .btn-toggle {
+    width: 50%;
+    display: inline-block;
+    padding: 23px;
+    font-size: 18px;
+    text-align: center;
+    background-color: $gray-02;
+    color: $gray-01;
+    cursor: pointer;
+    &.active {
+      color: $gray-02;
+      background-color: $gray-01;
+    }
+  }
+}
+
+.item-list-news {
+  position: relative;
+  width: 100%;
+  padding: 23px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px $gray-01 solid;
+  .header-list-news {
+    color: $gray-03;
+  }
+  b {
+    color: $gray-02;
+  }
+  span {
+    color: $gray-01;
+  }
+  i {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: $gray-01;
+    cursor: pointer;
+  }
+}
+
+.weather-header {
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: $gray-01;
+  background-color: $gray-02;
 }
 

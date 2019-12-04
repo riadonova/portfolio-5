@@ -28,8 +28,8 @@ img {
   transition: all 0.5s;
   &:hover {
     color: #ffffff;
-    background-color: $orange;
-    border: 1px solid $orange;
+    background-color: $orange-01;
+    border: 1px solid $orange-01;
     outline: none;
   }
   &.pink {
@@ -110,4 +110,28 @@ img {
 
 .box-article-aside {
   display: flex;
+}
+
+input {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: $gray-02;
+  border: none;
+  background-color: $gray-04;
+  &:focus {
+    outline: none;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/search-24px.svg");
+    background-size: cover;
+  }
 }

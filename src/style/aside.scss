@@ -49,17 +49,18 @@
   }
 }
 
-.weather-box {
+.weather-box,.gallery-box {
   width: 100%;
 }
 
-.weather-header {
+.weather-header,.gallery-header {
   padding: 20px;
   margin-top: 20px;
   text-align: center;
   font-size: 18px;
   color: $gray-01;
   background-color: $gray-02;
+  cursor: pointer;
 }
 
 .weather-body {
@@ -117,3 +118,16 @@
   }
 }
 
+
+.body-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 13px 12px;
+  background-color: #ffffff;
+}
+
+.item-body-gallery {
+  margin: 13px 12px;
+  cursor: pointer;
+}

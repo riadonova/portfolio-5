@@ -23,6 +23,14 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .body-aside {
+    width: calc(100% - 10px);
+    padding: 20px 0 0 0;
+    margin: 0 5px;
+  }
+}
+
 .item-list-news {
   position: relative;
   width: 100%;
@@ -118,6 +126,11 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .timeline-item {
+    width: 100%;
+  }
+  }
 
 .body-gallery {
   display: flex;
@@ -130,4 +143,10 @@
 .item-body-gallery {
   margin: 13px 12px;
   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .item-body-gallery {
+    margin: 13px 20px;
+  }
 }

@@ -40,7 +40,6 @@
 .article-top {
   position: relative;
   background-color: #ffffff;
-  height: 325px;
   padding: 27px 30px;
   margin-bottom: 20px;
   .btn:hover {
@@ -76,16 +75,36 @@
   right: 25px;
 }
 
+@media (max-width: 830px) {
+  .article-top-img {
+    display: none;
+  }
+}
+
 .news-line-left {
   float: left;
   width: 50%;
   padding-right: 10px;
 }
 
+@media (max-width: 620px) {
+  .news-line-left {
+    padding: 0;
+    width: 100%;
+  }
+}
+
 .news-line-right {
   float: right;
   width: 50%;
   padding-left: 10px;
+}
+
+@media (max-width: 620px) {
+  .news-line-right {
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .article-type-one {
@@ -110,6 +129,12 @@
   bottom: 0;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.51);
+}
+
+@media (max-width: 620px) {
+  .article-type-two {
+    margin-bottom: 20px;
+  }
 }
 
 .article-type-three {

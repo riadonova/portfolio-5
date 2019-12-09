@@ -132,8 +132,15 @@
   }
   }
 
+@media (max-width: 416px) {
+  .timeline {
+    width: 50%;
+  }
+}
+
 .body-gallery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   padding: 13px 12px;

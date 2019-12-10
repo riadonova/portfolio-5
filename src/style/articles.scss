@@ -6,7 +6,7 @@
   margin-right: 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .body-articles {
     width: calc(100% - 10px);
     padding: 20px 0 0 0;
@@ -17,13 +17,16 @@
 .menu-articles {
   position: relative;
   background-color: #3d3c3c;
-  padding: 23px 30px;
+  overflow: hidden;
+  height: 68px;
+  padding: 0 30px;
 }
 .menu-articles-item {
   display: inline-block;
   color: $gray-01;
   font-size: 18px;
   margin-right: 50px;
+  line-height: 68px;
   cursor: pointer;
   transition: all 0.5s;
   &:hover {
@@ -32,7 +35,7 @@
 }
 .menu-articles-item.more {
   position: absolute;
-  top: -4px;
+  top: -12px;
   right: -18px;
   font-size: 40px;
 }
@@ -75,7 +78,7 @@
   right: 25px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 800px) {
   .article-top-img {
     display: none;
   }

@@ -12,6 +12,7 @@
 .header-nav {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar {
@@ -54,21 +55,30 @@
   display: none;
 }
 
+.responsive-icon {
+  display: flex;
+}
+
+
 @media (max-width: 1000px) {
-  .btn-menu, .btn-search {
-    position: absolute;
-    display: block;
-    top: 10px;
-    right: 50px;
-    width: 40px;
-    height: 40px;
+  .responsive-icon {
+    margin-top: 10px;
+    margin-left: auto;
     text-align: center;
   }
-  .btn-search {
-    right: 0;
+  .btn-menu, .btn-search {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
   }
   .navbar {
     display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .responsive-icon {
+    margin-left: 5px;
   }
 }
 
